@@ -1,4 +1,5 @@
 package ru.netology.prodmng;
+
 public class Repository {
 
     private Product[] items = new Product[0];

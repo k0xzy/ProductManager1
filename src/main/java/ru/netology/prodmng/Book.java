@@ -1,4 +1,5 @@
 package ru.netology.prodmng;
+
 public class Book extends Product {
     private String author;
     private String title;

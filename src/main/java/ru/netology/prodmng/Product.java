@@ -1,4 +1,5 @@
 package ru.netology.prodmng;
+
 public class Product {
 
     protected int id;

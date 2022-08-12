@@ -1,4 +1,5 @@
 package ru.netology.prodmng;
+
 public class ProductManager {
     Repository repo;
 
@@ -21,7 +22,7 @@ public class ProductManager {
 
     public Product[] searchBy(String text) {
         Product[] result = new Product[0]; // тут будем хранить подошедшие запросу продукты
-        for (Product product: repo.getItems()) {
+        for (Product product : repo.getItems()) {
             if (matches(product, text)) {
                 // "добавляем в конец" массива result продукт product
                 Product[] tmp = new Product[result.length + 1];
